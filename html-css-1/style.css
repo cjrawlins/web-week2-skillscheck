@@ -1,0 +1,149 @@
+body {
+    height: 1100px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+/* ----------Header Section---------- */
+
+.header-content {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+#header-parent {
+    height: 50px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header-logo {
+    height: 100%;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2 {
+    color: white;
+}
+
+#header-links {
+    height: 100%;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.a-links {
+    color: white;
+    text-decoration: none;
+}
+
+/* ----------Main Section---------- */
+
+/* -----Top Main----- */
+#div-top-parent {
+    height: 300px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #e9e05f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-stretch: extra-condensed;
+}
+
+/* -----Content Main----- */
+
+#div-content {
+    height: 600px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+#div-content-top {
+    height: 250px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main1-child {
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+    background-color: #a4ffd7;
+}
+
+#div-content-middle {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main2-child {
+    height: 170px;
+    width: 350px;
+    background-color: #ffc36c;
+}
+
+#div-content-bottom {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main3-child {
+    height: 120px;
+    width: 250px;
+}
+
+p {
+    color: black;
+    font-size: 10.5px;
+    font-stretch: semi-condensed;
+}
+
+#div-content-bottom-child2 {
+    background-image: url(./elephant.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* ----------Footer Section---------- */
+.footer {
+    height: 100px;
+    width: 100%;
+    background-color: #3a3a56;
+    /* position: absolute;
+    bottom: 0; */
+}
